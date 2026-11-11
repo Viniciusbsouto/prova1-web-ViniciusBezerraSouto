@@ -1,0 +1,25 @@
+{
+  "name": "Prova Web 1 - UEPB",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "editor.formatOnSave": true
+      },
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "dsznajder.es7-react-js-snippets",
+        "ritwickdey.liveserver"
+      ]
+    }
+  },
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": {
+      "label": "Aplicação Next.js",
+      "onAutoForward": "notify"
+    }
+  },
+  "postCreateCommand": "npm install && echo 'Ambiente pronto para a prova!'"
+}
