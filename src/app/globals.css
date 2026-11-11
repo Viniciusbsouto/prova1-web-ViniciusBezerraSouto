@@ -35,3 +35,13 @@ a {
   text-decoration: none;
 }
 
+.layout {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.layout > nav {
+  margin-bottom: 24px;
+}
+

@@ -1,0 +1,22 @@
+.pagina {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.reservas {
+  margin: 24px 0;
+}
+
+.listaReservas {
+  padding-left: 24px;
+}
+
+.listaReservas li {
+  margin-top: 12px;
+}
+
+.livros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
